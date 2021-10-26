@@ -10,7 +10,7 @@ export default {
     },
     {
       name: 'slug',
-      title: 'Slug',
+      title: 'Slug (click Generate)',
       type: 'slug',
       options: {
         source: 'title',
@@ -39,7 +39,7 @@ export default {
     },
     {
       name: 'publishedAt',
-      title: 'Published at',
+      title: 'Published at (leave blank for current time)',
       type: 'datetime',
     },
     {
