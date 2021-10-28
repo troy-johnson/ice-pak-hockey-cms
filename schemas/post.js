@@ -48,6 +48,12 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      name: 'excerpt',
+      title: 'Excerpt',
+      type: 'string',
+      validation: Rule => Rule.required()
+    },
+    {
       name: 'body',
       title: 'Body',
       type: 'blockContent',
